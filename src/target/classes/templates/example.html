@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1"/>
+<title>Insert title here</title>
+</head>
+<body>
+<!--  
+<h1>Hola  lampara <span th:text="${persona.name}"></span>!!!!</h1>
+<h3>de  <span th:text="${persona.age}"></span>!!!!</h3>-->
+<table id="table-1">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Edad</th>
+		</tr>
+	</thead>
+	<!--  crea la variable para iterar el objeto java  th:each="variable : ${Objetojava}"   -->
+		<tbody th:each="people : ${people}">
+			<tr>
+			<th th:text="${people.name}"></th>
+			<th th:text="${people.age}"></th>
+			</tr>
+			</tbody>
+</table>
+
+
+</html>

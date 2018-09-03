@@ -1,0 +1,23 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+
+  
+
+    
+   
+    
+      
+  
+
+    
+    
+     
+     
+    
+    

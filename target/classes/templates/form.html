@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1"/>
+<title>formulario</title>
+</head>
+<body>
+<!-- la redirccion url se eecribe  con @{} -->
+	<form action="#" th:action="@{/ejemplo3/addpersona}" th:object="${persona}" method="post">
+	<!-- Envio  los datos desde formulario  se capruta en el metodo  @PostMapping("/addpersona")  -->
+	<p>Nombre:<input type="text"  th:field="*{name}"/> edad:  </p>
+    <p><input type="number"  th:field="*{age}"/></p>
+	
+	<p><input type="submit" value="Submit"/></p>
+		
+		</form>
+</body>
+</html>
