@@ -1,3 +1,8 @@
 com/skillnet/App.class
-com/skillnet/controller/Fronend.class
-com/skillnet/model/Persona.class
+com/skillnet/controller/ClienteController.class
+com/skillnet/Servicio/CLienService.class
+com/skillnet/model/Cliente.class
+com/skillnet/constan/viewConstan.class
+com/skillnet/Converter/ClientConverter.class
+com/skillnet/model/UserCredential.class
+com/skillnet/controller/LoginController.class

@@ -1,3 +1,8 @@
-/root/eclipse-workspace/SpringBootDemo2/src/main/java/com/skillnet/controller/Fronend.java
-/root/eclipse-workspace/SpringBootDemo2/src/main/java/com/skillnet/App.java
-/root/eclipse-workspace/SpringBootDemo2/src/main/java/com/skillnet/model/Persona.java
+/root/eclipse-workspace/Intranet/src/main/java/com/skillnet/model/Cliente.java
+/root/eclipse-workspace/Intranet/src/main/java/com/skillnet/Servicio/CLienService.java
+/root/eclipse-workspace/Intranet/src/main/java/com/skillnet/controller/LoginController.java
+/root/eclipse-workspace/Intranet/src/main/java/com/skillnet/constan/viewConstan.java
+/root/eclipse-workspace/Intranet/src/main/java/com/skillnet/Converter/ClientConverter.java
+/root/eclipse-workspace/Intranet/src/main/java/com/skillnet/controller/ClienteController.java
+/root/eclipse-workspace/Intranet/src/main/java/com/skillnet/model/UserCredential.java
+/root/eclipse-workspace/Intranet/src/main/java/com/skillnet/App.java
